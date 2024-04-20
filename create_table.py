@@ -1,6 +1,6 @@
 from  connection import Connection
 def create_table():
-        conn=Connection.connect('localhost','postgres',5648,'1380ACreZA46','universitydb')
+        conn=Connection.connect('localhost','postgres',5060,'TY@%57rk','universitydb')
         
         query="""create table student(
                 student_id int constraint PK_Student_student_id primary key,

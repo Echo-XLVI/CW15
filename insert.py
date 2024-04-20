@@ -1,7 +1,7 @@
 from connection import Connection
 
 def insert_rows():
-        conn=Connection.connect('localhost','postgres',5648,'1380ACreZA46','universitydb')
+        conn=Connection.connect('localhost','postgres',5060,'TY@%57rk','universitydb')
 
         query="""insert into student values 
                 (1,'reza','2001-08-06'),

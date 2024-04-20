@@ -10,7 +10,8 @@ class Connection:
     def insert_query(query:str,connection:object) -> list:
         cursor = connection.cursor()
         x=cursor.execute(query)
-        if x:
-            rows = cursor.fetchall()
-            connection.commit()
-            return rows
+        # if x:
+            # rows = cursor.fetchall()
+            # connection.commit()
+            # return rows
+        connection.commit()
